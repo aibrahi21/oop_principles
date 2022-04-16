@@ -79,6 +79,5 @@ public class PersonTest {
         for (Person person : personArr) {
             System.out.println(person);
         }
-
     }
 }
