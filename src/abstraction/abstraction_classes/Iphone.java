@@ -1,27 +1,27 @@
 package abstraction.abstraction_classes;
 
-public class Nokia extends Phone{
-    public static final String OS = "Android";
-    public Nokia() {
+public class Iphone extends Phone{
+    public static final String OS = "IOS";
+    public Iphone() {
     }
 
-    public Nokia(String brand, String color, int storage, double price) {
+    public Iphone(String brand, String color, int storage, double price) {
         super(brand, color, storage, price);
     }
 
     @Override
     public void call() {
-        System.out.println("Nokia calls");
+        System.out.println("Iphone calls");
     }
 
     @Override
     public void ring() {
-        System.out.println("Nokia rings");
+        System.out.println("Iphone rings");
     }
 
     @Override
     public void text() {
-        System.out.println("Nokia texts");
+        System.out.println("Iphone texts");
     }
 
     @Override
