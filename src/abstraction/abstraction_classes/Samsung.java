@@ -1,7 +1,9 @@
 package abstraction.abstraction_classes;
 
-public class Samsung extends Phone{
+public class Samsung extends Phone implements Camera{
+
     public static final String OS = "Android";
+
     public Samsung() {
     }
 
@@ -25,6 +27,12 @@ public class Samsung extends Phone{
 
     @Override
     public boolean isConvertible() {
-        return false;
+        return true;
     }
+
+    @Override
+    public void takesPhoto() {
+        System.out.println("Samsung takes photo");
+    }
+
 }

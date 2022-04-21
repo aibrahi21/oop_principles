@@ -23,6 +23,7 @@ public abstract class Phone {
     public abstract void ring();
     public abstract void text();
     public abstract boolean isConvertible();
+    public abstract void takesPhoto();
 
     @Override
     public String toString() {

@@ -1,6 +1,6 @@
 package abstraction.abstraction_classes;
 
-public class Nokia extends Phone{
+public class Nokia extends Phone implements Camera{
     public static final String OS = "Android";
     public Nokia() {
     }
@@ -26,6 +26,11 @@ public class Nokia extends Phone{
 
     @Override
     public boolean isConvertible() {
-        return true;
+        return false;
     }
+
+    @Override
+    public void takesPhoto() {
+    }
+
 }

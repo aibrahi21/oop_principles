@@ -1,6 +1,8 @@
 package encapsulation;
 
-public class Car {
+import abstraction.abstraction_classes.Bluetooth;
+
+public class Car{
 
     //instance variables
     public String make;
